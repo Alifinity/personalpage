@@ -46,3 +46,15 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## Deploy to Cloudflare Pages
+
+This repository includes a GitHub Actions workflow (`.github/workflows/deploy-cloudflare.yml`) that builds the `dist/` folder and deploys it to Cloudflare Pages.
+
+To enable deployment, add the following repository secrets in GitHub:
+
+- `CF_API_TOKEN` - Cloudflare API token with `Pages` write permission.
+- `CF_ACCOUNT_ID` - Your Cloudflare account ID.
+- `CF_PROJECT_NAME` - The Cloudflare Pages project name (slug).
+
+Once set, pushing to `main` will trigger the workflow and publish your site to Cloudflare Pages.
