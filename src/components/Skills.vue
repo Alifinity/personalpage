@@ -44,7 +44,7 @@
                 </div>
                 <p class="font-semibold text-xs text-slate-400">MySQL</p>
             </div>
-             <div class="flex flex-col items-center space-y-1">
+            <div class="flex flex-col items-center space-y-1">
                 <div class="bg-slate-800 p-3 rounded-full">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg"
                         alt="Oracle" class="h-8 w-8">
