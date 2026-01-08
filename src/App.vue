@@ -5,9 +5,9 @@ import Contact from "./components/Contact.vue";
 </script>
 
 <template>
-  <div id="app" class="min-h-screen bg-slate-900 text-slate-300">
-    <main class="mx-auto w-full max-w-4xl px-4 py-16">
-      <div class="space-y-0">
+  <div id="app" class="min-h-screen content-center bg-slate-900 text-slate-300 flex items-center justify-center">
+    <main class="w-full max-w-4xl px-4">
+      <div class="space-y-4">
         <About />
         <Skills />
         <Contact />

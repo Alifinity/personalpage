@@ -1,12 +1,14 @@
 <template>
-    <section id="contact" class="py-8"> <!-- Added py-8 -->
+    <section id="contact" class="pt-4">
         <div class="max-w-xl mx-auto text-center">
-            <h2 class="text-3xl font-bold text-white mb-4">Let's Connect</h2>
-            <p class="text-slate-400 mb-8">If you have a project in mind or
-                just want to say hi, feel free to reach out!</p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <h2 class="text-2xl font-bold text-white mb-4">Let's Connect</h2>
+            <div class="flex flex-row justify-center gap-4">
+                <a href="mailto:your-email@example.com"
+                    class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg inline-block transition-colors text-base hover:scale-105 transform duration-200">
+                    Say Hello
+                </a>
                 <a href="https://www.linkedin.com/in/muhamad-alif-mohd-ruzy/" target="_blank"
-                    class="bg-[#0A66C2] hover:bg-[#004182] text-white font-bold py-4 px-8 rounded-lg inline-block transition-colors text-lg">
+                    class="bg-[#0A66C2] hover:bg-[#004182] text-white font-medium py-3 px-6 rounded-lg inline-block transition-colors text-base hover:scale-105 transform duration-200">
                     LinkedIn
                 </a>
             </div>
